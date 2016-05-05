@@ -1,0 +1,11 @@
+#this is what you should see at startup
+
+jeff_g_schmitz@spaceman1:~/tensorflow$ ./tensorstart 
+[I 17:22:38.574 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 17:22:38.602 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 17:22:38.603 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not rec
+ommended.
+[I 17:22:38.607 NotebookApp] Serving notebooks from local directory: /notebooks
+[I 17:22:38.607 NotebookApp] 0 active kernels 
+[I 17:22:38.608 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 17:22:38.608 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
