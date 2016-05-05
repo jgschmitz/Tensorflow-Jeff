@@ -1,4 +1,9 @@
 #this is what you should see at startup
+#tensorstart looks like this
+
+#!/bin/bash
+sudo docker run -it b.gcr.io/tensorflow/tensorflow
+
 
 jeff_g_schmitz@spaceman1:~/tensorflow$ ./tensorstart 
 [I 17:22:38.574 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
