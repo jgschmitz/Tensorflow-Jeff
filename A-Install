@@ -1,0 +1,11 @@
+#Start here->
+
+# Ubuntu/Linux 64-bit, CPU only:
+pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.7.1-cp27-none-linux_x86_64.whl
+
+# Ubuntu/Linux 64-bit, GPU enabled:
+pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.7.1-cp27-none-linux_x86_64.whl
+
+# Mac OS X, CPU only:
+easy_install --upgrade six
+pip install --upgrade https://storage.googleapis.com/tensorflow/mac/tensorflow-0.7.1-cp27-none-any.whl
