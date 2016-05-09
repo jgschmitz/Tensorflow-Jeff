@@ -1,0 +1,6 @@
+#!/bin/bash
+#simple start up script for tensorflow
+#assumes all other instuctions were followed for docker install
+#I am not using virtualbox - simply not needed
+
+sudo docker run -it b.gcr.io/tensorflow/tensorflow
