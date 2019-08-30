@@ -1,4 +1,4 @@
-Here are the steps:
+#Here are the steps:
 this is assuming DOCKER is already installed!! = )
 Docker runs only on 64-bit OS with kernel version 3.10 or higher. So, the first step must be to install the latest kernel available from wheezy backports. Follow the backport instructions
 Then reboot the machine selecting the latest kernel version
