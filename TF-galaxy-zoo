@@ -1,3 +1,5 @@
+#crowd source galaxy analyzer 
+
 name: (galaxy-zoo) 
 version: (0.0.1) 
 entry point: (index.js) 
