@@ -1,5 +1,5 @@
 #A Session object encapsulates the environment in which Operation objects are executed, and Tensor objects are evaluated. For example:
-
+# TF then DF then CF
 # Build a graph.
 a = tf.constant(5.0)
 b = tf.constant(6.0)
