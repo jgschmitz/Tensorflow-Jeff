@@ -25,6 +25,7 @@ feed_dict: A dictionary that maps graph elements to values (described above).
 options: A [RunOptions] protocol buffer
 run_metadata: A [RunMetadata] protocol buffer
 Returns:
+#a buffer
 
 Either a single value if fetches is a single graph element, or a list of values if fetches is a list (described above).
 
