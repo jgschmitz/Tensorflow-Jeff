@@ -1,4 +1,4 @@
-#If wanting to run in virualenv.............
+#If wanting to run in virualenv
 
 $ virtualenv --system-site-packages ~/tensorflow
 Activate the environment and use pip to install TensorFlow inside it:
