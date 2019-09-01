@@ -1,4 +1,3 @@
-#!/usr/bin/python
 
 # Launch the default graph.
 sess = tf.Session()
