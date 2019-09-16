@@ -10,3 +10,6 @@ pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensor
 # Mac OS X, CPU only:
 easy_install --upgrade six
 pip install --upgrade https://storage.googleapis.com/tensorflow/mac/tensorflow-0.7.1-cp27-none-any.whl
+test by 
+python3
+import tensorflow as tf
