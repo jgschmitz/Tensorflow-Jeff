@@ -7,3 +7,5 @@ Name: tensorflow
 Version: 0.8.0
 Location: /usr/local/lib/python3.7/dist-packages
 Requires: six, numpy, wheel, protobuf
+
+<end>
