@@ -1,3 +1,4 @@
+python3
 #crowd source galaxy analyzer 
 
 name: (galaxy-zoo) 
