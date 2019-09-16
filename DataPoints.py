@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+python3
 #push to charts is in progress 
 import tensorflow as tf
 import numpy as np
