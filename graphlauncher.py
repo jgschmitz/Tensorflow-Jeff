@@ -1,4 +1,4 @@
-
+# lets kick this thing off
 # Launch the default graph.
 sess = tf.Session()
 
