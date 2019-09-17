@@ -1,5 +1,7 @@
 python3
-#push to charts is in progress 
+#push to charts is in progress
+#link Atlas mongodb+srv://jschmitz:<password>@darkstar-wrzlf.azure.mongodb.net/test?retryWrites=true&w=majority
+
 import tensorflow as tf
 import numpy as np
 
