@@ -1,2 +1,2 @@
-
+use bash shell
 sudo docker run -it b.gcr.io/tensorflow/tensorflow
