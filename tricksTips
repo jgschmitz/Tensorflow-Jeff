@@ -1,4 +1,4 @@
-TensTF Tips & Tricks
+TF Tips and Tricks
 GPU Memory Issues
 nvidia-smi to check for current memory usage.
 watch -n 1 nvidia-smi to monitor memory usage every second.
