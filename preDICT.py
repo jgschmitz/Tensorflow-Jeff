@@ -1,5 +1,6 @@
 python3
 #import modules
+#data that is accessed together is stored together
 import sys
 import tensorflow as tf
 from PIL import Image,ImageFilter
