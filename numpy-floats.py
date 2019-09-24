@@ -2,6 +2,7 @@ Python3
 
 import tensorflow as tf
 import numpy as np
+import sklearn as sk
 
 # Pair of numpy arrays.
 matrix1 = 10 * np.random.random_sample((3, 4))
