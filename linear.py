@@ -1,4 +1,5 @@
 python3
+#this will burst the graphs overlay on the terminal
 
 '''
 A linear regression learning algorithm example using TensorFlow library.
