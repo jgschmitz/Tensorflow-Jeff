@@ -1,4 +1,5 @@
 #There are two short-term options for now.
+##this needs to be updated
 
 Install Cuda 7.0 and Cudnn 6.5, in additional to your existing Cuda 7.5 and Cudnn 7.0 libraries. They are the officially supported versions. And it is okay to have multiple Cuda toolkits with different paths on your system. This is the recommended way.
 
