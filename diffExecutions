@@ -1,0 +1,15 @@
+Runs: Comparing different executions of your model
+You may want to visually compare multiple executions of your model; for example, suppose you've changed the hyperparameters and want to see if it's converging faster. TensorBoard enables this through different "runs". When TensorBoard is passed a logdir at startup, it recursively walks the directory tree rooted at logdir looking for subdirectories that contain tfevents data. Every time it encounters such a subdirectory, it loads it as a new run, and the frontend will organize the data accordingly.
+
+For example, here is a well-organized TensorBoard log directory, with two runs, "run1" and "run2".
+
+/some/path/mnist_experiments/
+/some/path/mnist_experiments/run1/
+/some/path/mnist_experiments/run1/events.out.tfevents.1456525581.name
+/some/path/mnist_experiments/run1/events.out.tfevents.1456525585.name
+/some/path/mnist_experiments/run2/
+/some/path/mnist_experiments/run2/events.out.tfevents.1456525385.name
+/tensorboard --logdir /some/path/mnist_experiments
+You may also pass a comma separated list of log directories, and TensorBoard will watch each directory. You can also assign names to individual log directories by putting a colon between the name and the path, as in
+
+tensorboard --logdir name1:/path/to/logs/1,name2:/path/to/logs/2
