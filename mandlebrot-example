@@ -47,7 +47,7 @@ Defining and Running the Computation
 
 Now we specify more of the computation...
 
-# Compute the new values of z: z^2 + x
+# Lets compute the new values of z: z^2 + x
 zs_ = zs*zs + xs
 
 # Have we diverged with this new value?
