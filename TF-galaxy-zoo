@@ -1,7 +1,7 @@
 # come join the party here -> http://zoo1.galaxyzoo.org/
 #crowd source galaxy analyzer 
 
-name: (galaxy-zoo) 
+name: (galaxy-barnyard) 
 version: (0.0.1) 
 entry point: (index.js) 
 keywords: 
