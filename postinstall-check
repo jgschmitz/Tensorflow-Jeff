@@ -1,4 +1,5 @@
 #post install test - should look this this
+#run this chili and you"ll be fonzy
 
 run:
 jeff_g_schmitz@spaceman1:~$ sudo pip show tensorflow
