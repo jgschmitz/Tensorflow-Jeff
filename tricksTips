@@ -1,5 +1,5 @@
 TF Tips and Tricks
-GPU Memory Issues
+GPU Memory Issues ****
 nvidia-smi to check for current memory usage.
 watch -n 1 nvidia-smi to monitor memory usage every second.
 Often, extra Python processes can stay running in the background, maintaining a hold on the GPU memory, even if nvidia-smi doesn't show it.
