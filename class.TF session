@@ -5,7 +5,7 @@ a = tf.constant(5.0)
 b = tf.constant(6.0)
 c = a * b
 
-# Launch the graph in a session.
+# Launch the graph in a session layover on screen.
 sess = tf.Session()
 
 # Evaluate the tensor `c`.
