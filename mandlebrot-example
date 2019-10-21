@@ -3,6 +3,7 @@
 # Import libraries for simulation
 import tensorflow as tf
 import numpy as np
+import sklearn as skl
 
 # Imports for visualization
 import PIL.Image
