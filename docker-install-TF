@@ -1,5 +1,5 @@
 #Follow the steps:
-#you can install docker like so
+#install docker like so
 yum install docker -Y
 
 this is assuming DOCKER is already installed!! = )
