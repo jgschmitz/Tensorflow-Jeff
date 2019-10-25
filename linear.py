@@ -7,10 +7,10 @@ A linear regression learning algorithm example using TensorFlow library.
 
 from __future__ import print_function
 
-import tensorflow as tf
+import tensorflow
 import numpy
-import matplotlib.pyplot as plt
-rng = numpy.random
+import matplotlib
+
 
 # Parameters
 learning_rate = 0.01
