@@ -1,4 +1,4 @@
-#If wanting to run in virualenv
+
 #this is completely not necessary to use TF
 
 $ virtualenv --system-site-packages ~/tensorflow
