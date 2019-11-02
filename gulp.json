@@ -1,4 +1,4 @@
-#gulp - tf, df then cf
+#gulp
 {
   "name": "tensorflow-vis",
   "version": "0.0.0",
