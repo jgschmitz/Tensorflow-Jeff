@@ -1,4 +1,4 @@
-#We'll need a few imports to get started.
+#Lets grab a few libraries
 
 # Import libraries for simulation
 import tensorflow as tf
