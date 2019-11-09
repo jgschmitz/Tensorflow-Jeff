@@ -1,5 +1,4 @@
 python3
-#push to charts coming soon
 
 import tensorflow as tf
 import numpy as np
