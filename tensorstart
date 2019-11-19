@@ -1,4 +1,4 @@
-#For starting docker image of TF
+For starting docker image of TF
 
 use bash shell
 sudo docker run -it b.gcr.io/tensorflow/tensorflow
