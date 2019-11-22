@@ -12,4 +12,4 @@ Example: here is a well-organized TensorBoard log directory, with two runs, "run
 /tensorboard --logdir /some/path/mnist_experiments
 You may also pass a comma separated list of log directories, and TensorBoard will watch each directory. You can also assign names to individual log directories by putting a colon between the name and the path, as in
 
-#tensorboard --logdir name1:/path/to/logs/1,name2:/path/to/logs/2
+tensorboard --logdir name1:/path/to/logs/1,name2:/path/to/logs/2
