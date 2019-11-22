@@ -1,5 +1,5 @@
 $ virtualenv --system-site-packages ~/tensorflow
-#Activate the environment and use pip to install TensorFlow inside it:
+#Activate the environment and use pip to install TensorFlow inside:
 
 $ source ~/tensorflow/bin/activate  # If using bash
 $ source ~/tensorflow/bin/activate.csh  # If using csh
