@@ -1,7 +1,6 @@
 #post install test - should look this this
 
-run:
-jeff_g_schmitz@spaceman1:~$ sudo pip show tensorflow
+$ sudo pip show tensorflow
 ---
 Name: tensorflow
 Version: 0.8.0
