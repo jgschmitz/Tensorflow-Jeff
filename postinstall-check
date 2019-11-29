@@ -1,4 +1,4 @@
-#post install test - should look this this
+post install test - should look this this
 
 $ sudo pip show tensorflow
 ---
