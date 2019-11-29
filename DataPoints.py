@@ -1,4 +1,4 @@
-python3
+#!/usr/local/bin/python3
 
 import tensorflow as tf
 import numpy as np
