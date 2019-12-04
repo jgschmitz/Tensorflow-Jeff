@@ -1,4 +1,4 @@
-
+#nvidia
 
 watch -n 1 nvidia-smi to monitor memory usage every second.
 
