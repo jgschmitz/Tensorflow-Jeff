@@ -1,4 +1,4 @@
-For starting docker image of Tensorflow
+For starting docker image of Tensorflow after pull
 
 use bash shell
 sudo docker run -it b.gcr.io/tensorflow/tensorflow
