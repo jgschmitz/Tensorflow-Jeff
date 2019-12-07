@@ -2,7 +2,7 @@ python3
 
 
 '''
-A linear regression learning algorithm example using TensorFlow library.
+# A linear regression learning algorithm example using TensorFlow library.
 '''
 
 from __future__ import print_function
