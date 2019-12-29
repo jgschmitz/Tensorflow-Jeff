@@ -12,3 +12,4 @@ pip install --upgrade https://storage.googleapis.com/tensorflow/mac/tensorflow-0
 test by 
 python3
 import tensorflow as tf
+then cf
