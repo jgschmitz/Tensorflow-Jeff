@@ -3,7 +3,7 @@ See the pip install guide for available packages, systems requirements, and inst
 
 pip install tensorflow-gpu   stable
 
-pip install tf-nightly      # preview
+pip install tf-nightly      preview
 
 Older versions of TensorFlow
 For the 1.15 release, CPU and GPU support are included in a single package:
