@@ -18,7 +18,7 @@ pip install tensorflow-gpu==1.14  # GPU
 Hardware requirements
 The following GPU-enabled devices are supported:
 
-NVIDIA® GPU card with CUDA® Compute Capability 3.5 or higher. See the list of CUDA-enabled GPU cards.
+
 Software requirements
 The following NVIDIA® software must be installed on your system:
 
