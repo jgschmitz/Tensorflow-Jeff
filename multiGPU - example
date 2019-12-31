@@ -15,7 +15,7 @@ import datetime
 #Processing Units logs
 log_device_placement = True
 
-#num of multiplications to perform
+#num of multiplications to run
 n = 10
 
 '''
