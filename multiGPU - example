@@ -2,7 +2,7 @@ python3
 #Multi GPU example
 
 '''
-This tutorial requires your machine to have 2 GPUs
+This tutorial requires your machine to have at least 2 GPUs
 "/cpu:0": The CPU of your machine.
 "/gpu:0": The first GPU of your machine
 "/gpu:1": The second GPU of your machine
