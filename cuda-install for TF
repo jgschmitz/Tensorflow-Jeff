@@ -1,7 +1,7 @@
 Pip package
 See the pip install guide for available packages, systems requirements, and instructions. To pip install a TensorFlow package with GPU support, choose a stable or development package:
 
-pip install tensorflow-gpu  # stable
+pip install tensorflow-gpu   stable
 
 pip install tf-nightly      # preview
 
