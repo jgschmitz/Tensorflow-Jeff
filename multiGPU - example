@@ -63,7 +63,7 @@ Multi GPU computing
 '''
 #GPU:0 computes A^n
 with tf.device('/gpu:0'):
-    #compute A^n and store result in c2
+    #compute A^n and store result in c3
     a = tf.constant(A)
     c2.append(matpow(a, n))
 
