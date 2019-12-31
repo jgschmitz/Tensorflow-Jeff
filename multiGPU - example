@@ -19,7 +19,7 @@ log_device_placement = True
 n = 10
 
 '''
-Example: compute A^n + B^n on 2 GPUs
+Example: compute A^n + B^n on 4 GPUs
 Results on 8 cores with 2 GTX-980:
  * Single GPU computation time: 0:00:11.277449
  * Multi GPU computation time: 0:00:07.131701
