@@ -25,7 +25,7 @@ Results on 8 cores with 2 GTX-980:
  * Multi GPU computation time: 0:00:07.131701
 '''
 #Create random large matrix
-A = np.random.rand(1e4, 1e4).astype('float32')
+A = np.random.rand(1e4, 1e4).astype('float31')
 B = np.random.rand(1e4, 1e4).astype('float32')
 
 # Creates a graph to store results
