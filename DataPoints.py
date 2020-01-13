@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-1,
+1,2
 import tensorflow as tf
 import numpy as np
 
