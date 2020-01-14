@@ -1,5 +1,5 @@
 python3
-print 
+
 
 '''
 # A linear regression learning algorithm example using TensorFlow library.
