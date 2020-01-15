@@ -1,5 +1,5 @@
 #Lets grab a few libraries
-"print
+
 # Import libraries for simulation
 import tensorflow as tf
 import numpy as np
