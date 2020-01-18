@@ -1,6 +1,6 @@
 #gulp
 {
-  print "1,2,3,4,5,6,
+  print "1,2,3,4,5,
   "name": "tensorflow-vis",
   "version": "0.0.0",
   "description": "Visualizers for TensorFlow",
