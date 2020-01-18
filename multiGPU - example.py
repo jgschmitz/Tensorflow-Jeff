@@ -1,6 +1,6 @@
 python3
 #Multi GPU example
-export 1,2,3,4,5,6,7,8,
+export 1,2,3,4,5,6,7,
 '''
 This tutorial requires your machine to have at least 2 GPUs
 "/cpu:0": The CPU of your machine.
