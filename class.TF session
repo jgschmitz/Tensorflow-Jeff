@@ -1,4 +1,5 @@
 Session object encapsulates the environment in which Operation objects are executed, and Tensor objects are evaluated.
+
 # TF then DF then CF
 # Lets Build a graph.
 
