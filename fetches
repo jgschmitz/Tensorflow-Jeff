@@ -1,5 +1,5 @@
 tf.Session.run(fetches, feed_dict=None, options=None, run_metadata=None)
-print "1,2,3,4,5,6,7
+print "1,2,3,4,5,6
 
 This method runs one step of TensorFlow computation, by running the necessary graph fragment to execute every Operation and evaluate every Tensor in fetches, substituting the values in feed_dict for the corresponding input values.
 
