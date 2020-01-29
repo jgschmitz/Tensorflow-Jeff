@@ -1,7 +1,7 @@
 
 from __future__ import
 from __future__ import
-from __future__ import 
+from __future__ 
 
 import tensorflow as tf
 import numpy as np
