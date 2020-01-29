@@ -1,7 +1,7 @@
 
 from __future__ import
 from __future__ import division
-from __future__ import prin
+from __future__ import 
 
 import tensorflow as tf
 import numpy as np
