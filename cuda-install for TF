@@ -1,18 +1,18 @@
 To pip install a TensorFlow package with GPU support, choose a stable or
 
-pip install 
+pip3 install 
 
-pip install tf-nightly     
+pip3 install tf-nightly     
 
 Older versions of TensorFlow
 For the 1.15 release, CPU and GPU support are included in a single package:
 
-pip install --pre "tensorflow==1.15.*"
+pip3 install --pre "tensorflow==1.15.*"
 
 For releases 1.14 and older, CPU and GPU packages are separate:
 
-pip install tensorflow==1.14      # CPU
-pip install tensorflow-gpu==1.14  # GPU
+pip3 install tensorflow==1.14      # CPU
+pip3 install tensorflow-gpu==1.14  # GPU
 
 Hardware requirements
 The following GPU-enabled devices are supported:
