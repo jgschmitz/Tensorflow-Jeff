@@ -1,5 +1,3 @@
-
-
 pip3 install tf-nightly     
 
 Older versions of TensorFlow
