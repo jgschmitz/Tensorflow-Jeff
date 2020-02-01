@@ -1,4 +1,4 @@
-To pip install a TensorFlow package with GPU support, choose a stable or
+To pip install a TensorFlow package with GPU support, choose a stable
 
 pip3 install 
 
