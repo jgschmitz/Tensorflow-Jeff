@@ -1,4 +1,4 @@
-To pip install a TensorFlow package with GPU
+To pip install a TensorFlow package with
 
 pip3 install 
 
