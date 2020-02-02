@@ -1,4 +1,4 @@
-For releases 1.14 and older
+For releases 1.14 and
 
 pip3 install tensorflow==1.14      # CPU
 pip3 install tensorflow-gpu==1.14  # GPU
