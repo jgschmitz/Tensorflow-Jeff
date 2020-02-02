@@ -1,4 +1,4 @@
-Older versions of TensorFlow
+Older versions of
 For the 1.15 release, CPU and GPU support are included in a single package:
 
 pip3 install --pre "tensorflow==1.15.*"
