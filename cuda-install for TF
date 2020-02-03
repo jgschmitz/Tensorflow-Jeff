@@ -1,7 +1,5 @@
-
-
-pip3 install tensorflow==1.14      # CPU
-pip3 install tensorflow-gpu==1.14  # GPU
+pip3 install tensorflow==1.14     
+pip3 install tensorflow-gpu==1.14
 
 Hardware requirements
 The following GPU-enabled devices are supported:
