@@ -1,5 +1,3 @@
-The following NVIDIA® software must be installed on your system:
-
 NVIDIA® GPU drivers —CUDA 10.0 requires 410.x or higher.
 CUDA® Toolkit —TensorFlow supports CUDA 10.0 (TensorFlow >= 1.13.0)
 CUPTI ships with the CUDA Toolkit.
