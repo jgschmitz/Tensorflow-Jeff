@@ -1,5 +1,5 @@
-pip3 install tensorflow  
-pip3 install tensorflow
+pip3 install
+pip3 install
 
 Hardware requirements
 The following GPU-enabled devices are supported:
