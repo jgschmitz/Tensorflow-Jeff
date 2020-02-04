@@ -1,6 +1,6 @@
 
 
-CUPTI ships with the CUDA Toolkit.
+
 cuDNN SDK (>= 7.4.1)
 (Optional) TensorRT 5.0 to improve latency and throughput for inference on some models.
 Linux setup
