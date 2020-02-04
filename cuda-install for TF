@@ -1,4 +1,4 @@
-Install CUPTI which ships with the CUDA® Toolkit. Append its installation directory to the $LD_LIBRARY_PATH environmental variable:
+
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
 
