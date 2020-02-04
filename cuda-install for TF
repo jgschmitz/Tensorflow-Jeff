@@ -1,9 +1,3 @@
-
-
-
-cuDNN SDK (>= 7.4.1)
-(Optional) TensorRT 5.0 to improve latency and throughput for inference on some models.
-Linux setup
 The apt instructions below are the easiest way to install the required NVIDIA software on Ubuntu. However, if building TensorFlow from source, manually install the software requirements listed above, and consider using a -devel TensorFlow Docker image as a base.
 
 Install CUPTI which ships with the CUDA® Toolkit. Append its installation directory to the $LD_LIBRARY_PATH environmental variable:
