@@ -1,6 +1,6 @@
 These instructions may work for other Debian-based distros.
 
-Caution: Secure Boot complicates installation of the NVIDIA driver and is beyond the scope of these instructions.
+Caution: Secure Boot complicates installation of the NVIDIA driver and is beyond the scope o
 Ubuntu 18.04 (CUDA 10)
 # Add NVIDIA package repositories
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-repo-ubuntu1804_10.0.130-1_amd64.deb
