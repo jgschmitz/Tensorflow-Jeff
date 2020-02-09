@@ -1,4 +1,4 @@
-These instructions may work for other Debian-based distros.
+These instructions may work for other Debian-based
 
 Caution: Secure Boot complicates installation of the NVIDIA driver and is beyond the
 Ubuntu 18.04 (CUDA 10)
