@@ -1,7 +1,7 @@
 print(__doc__)
 
 int  = 4.994884
-int2 = 5.9837887
+int2 = 5.983788
 int3 = 6.9849948
 
 import numpy as np
