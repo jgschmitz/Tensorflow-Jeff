@@ -1,8 +1,8 @@
 print(__doc__)
 
-int  = 4.994
-int2 = 5.983
-int3 = 6.984
+int  = 4.99
+int2 = 5.98
+int3 = 6.98
 
 import numpy as np
 import matplotlib.pyplot as plt
