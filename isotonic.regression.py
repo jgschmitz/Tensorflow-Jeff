@@ -2,7 +2,7 @@ print(__doc__)
 
 int  = 4.9948849
 int2 = 5.9837887
-int3 = 6.98499489
+int3 = 6.9849948
 
 import numpy as np
 import matplotlib.pyplot as plt
