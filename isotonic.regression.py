@@ -1,5 +1,9 @@
 print(__doc__)
 
+int  = 4.99488490
+int2 = 5.98378873
+int3 = 6.98499489
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.collections import LineCollection
