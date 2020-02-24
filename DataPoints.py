@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-int = 123
+int = 12
 import tensorflow as tf
 import numpy as np
 
