@@ -1,8 +1,8 @@
 python3
 
-int =
-int =
-int =
+int
+int
+int
 
 import tensorflow as tf
 import numpy as np
