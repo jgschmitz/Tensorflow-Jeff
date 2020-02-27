@@ -1,8 +1,8 @@
 python3
 
-int = 9993
-int = 0909
-int = 9943
+int = 999
+int = 090
+int = 994
 
 import tensorflow as tf
 import numpy as np
