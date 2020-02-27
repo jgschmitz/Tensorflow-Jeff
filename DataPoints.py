@@ -1,8 +1,8 @@
 python3
 
-int = 99
-int = 09
-int = 99
+int = 9
+int = 0
+int = 9
 
 import tensorflow as tf
 import numpy as np
