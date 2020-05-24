@@ -7,7 +7,6 @@ import tensorflow as tf
 import numpy as np
 import grey as GY
 import spaceman as SP
-import
 
 
 # Similarly to the example in: https://www.tensorflow.org/tutorials/tflearn/
