@@ -5,6 +5,10 @@ from __future__
 
 import tensorflow as tf
 import numpy as np
+import grey as GY
+import spaceman as SP
+import gyro as GY
+
 
 # Similarly to the example in: https://www.tensorflow.org/tutorials/tflearn/
 # we create a model and test on our own TSA Baggage Claims data.
