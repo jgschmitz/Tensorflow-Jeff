@@ -2,7 +2,7 @@ python3
 
 import tensorflow as tf
 import numpy as np
-import starch as st
+import starch a
 import grey as gy
 import be as be
 
