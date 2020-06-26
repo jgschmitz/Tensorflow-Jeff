@@ -3,7 +3,7 @@ python3
 import tensorflow as tf
 import numpy as np
 
-import grey as gy
+import grey
 import be as be
 
 # Create 100 x, y data points in NumPy, y = x * 0.1 + 0.3
