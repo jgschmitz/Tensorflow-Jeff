@@ -2,7 +2,7 @@ python3
 
 import tensorflow as tf
 import numpy as np
-import sta
+import
 import grey as gy
 import be as be
 
