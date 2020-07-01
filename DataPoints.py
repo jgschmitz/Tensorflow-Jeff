@@ -1,5 +1,4 @@
 python3
-pri
 
 import tensorflow as tf
 import numpy as np
