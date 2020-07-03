@@ -17,7 +17,7 @@ to use this script to perform image recognition.
 
 https://tensorflow.org/tutorials/image_recognition/
 """
-print "
+pr
 
 from __future__ import absolute_import
 from __future__ import division
