@@ -1,5 +1,4 @@
 python
-print 1,2
 
 print(__doc__)
 
