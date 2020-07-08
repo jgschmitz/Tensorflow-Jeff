@@ -1,3 +1,6 @@
+python
+print 1,2,3,4,5,6,7,
+
 print(__doc__)
 
 int  = 4.
