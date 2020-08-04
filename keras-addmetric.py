@@ -2,7 +2,7 @@ def recall(y_true, y_pred):
     y_true = K.ones_like(y_true) 
     true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
     all_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
-    print
+    
     recall = true_positives / (all_positives + K.epsilon())
     return recall
 def precision(y_true, y_pred):
