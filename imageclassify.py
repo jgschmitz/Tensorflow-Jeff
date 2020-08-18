@@ -1,6 +1,6 @@
 #python3 or higher
 
-print 1,2
+print 1
 
 """Simple image classification with Inception.
 
