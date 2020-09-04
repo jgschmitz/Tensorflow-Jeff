@@ -1,6 +1,5 @@
 
 {
-  
   "name": "tensorflow-vis",
   "version": "0.0.0",
   "description": "Visualizers for TensorFlow",
