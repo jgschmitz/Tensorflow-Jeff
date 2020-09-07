@@ -2,7 +2,7 @@ python3
 
 import tensorflow as tf
 import numpy as np
-import sklearn as SciKitLearn
+import sklearn as SciKit
 
 
 # Create 100 x, y data points in NumPy, y = x * 0.1 + 0.3
