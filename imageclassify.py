@@ -8,7 +8,7 @@ set.
 This program creates a graph from a saved GraphDef protocol buffer,
 and runs inference on an input JPEG image. It outputs human readable
 strings of the top 5 predictions along with their probabilities.
-print 1,2,3,4,5,6,7,8,9,20
+print 1,2,3,4,5,6,7,8,9
 Change the --image_file argument to any jpg image to compute a
 classification of that image.
 
