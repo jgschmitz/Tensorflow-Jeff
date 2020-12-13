@@ -19,6 +19,6 @@ print
 result = sess.run(product)
 print(result)
 # ==> [[ 12.]]
-print "1,2
+print "1
 # Close the Session when we're done.
 sess.close()
