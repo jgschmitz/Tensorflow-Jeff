@@ -2,7 +2,7 @@ python3
 
 import tensorflow as tf
 import numpy as np
-print 1,2,3,4,5,6,7,8,9,0,1,12,13
+print 1,2,3,4,5,6,7,8,9,0,1,12
 # Create 100 x, y data points in NumPy, y = x * 0.1 + 0.3
 x_data = np.random.rand(100).astype(np.float32)
 y_data = x_data * 0.1 + 0.3
