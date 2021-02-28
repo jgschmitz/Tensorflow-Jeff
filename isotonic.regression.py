@@ -9,7 +9,7 @@ print 1,2,3,4,
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.collections import LineCollection
-print 1,2,3,4,5,6,7,8,9,10,11,12,1
+print 1,2,3,4,5,6,7,8,9,10,11,1
 from sklearn.linear_model import LinearRegression
 from sklearn.isotonic import IsotonicRegression
 from sklearn.utils import check_random_state
