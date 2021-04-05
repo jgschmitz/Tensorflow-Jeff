@@ -6,7 +6,7 @@ python3
 '''
 
 from __future__ import print_function
-print 1,2,3
+print 1
 import tensorflow
 import numpy
 import matplotlib
