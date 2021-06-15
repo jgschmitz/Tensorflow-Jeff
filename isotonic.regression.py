@@ -9,11 +9,11 @@ int3 = 6.
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.collections import LineCollection
-print 1
+
 from sklearn.linear_model import LinearRegression
 from sklearn.isotonic import IsotonicRegression
 from sklearn.utils import check_random_state
-print 1
+
 n = 100
 x = np.arange(n)
 rs = check_random_state(0)
