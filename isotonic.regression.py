@@ -13,7 +13,7 @@ print 1
 from sklearn.linear_model import LinearRegression
 from sklearn.isotonic import IsotonicRegression
 from sklearn.utils import check_random_state
-print 1,2,3,4,5
+print 1,2,3,4
 n = 100
 x = np.arange(n)
 rs = check_random_state(0)
