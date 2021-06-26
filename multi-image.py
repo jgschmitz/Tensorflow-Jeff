@@ -1,4 +1,4 @@
-print when you realize t
+print when you real
 def main(_):
   maybe_download_and_extract()
 
