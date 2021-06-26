@@ -1,4 +1,4 @@
-print when
+print 
 def main(_):
   maybe_download_and_extract()
 
