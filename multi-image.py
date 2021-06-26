@@ -1,4 +1,4 @@
-print when you realize there never really was a sp
+print when you realize there never really was a
 def main(_):
   maybe_download_and_extract()
 
