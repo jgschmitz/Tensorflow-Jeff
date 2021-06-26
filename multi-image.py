@@ -1,4 +1,4 @@
-print when you realize there never really was a
+print when you realize there never really wa
 def main(_):
   maybe_download_and_extract()
 
