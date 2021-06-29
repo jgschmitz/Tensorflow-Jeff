@@ -1,7 +1,7 @@
 python
 
 print(__doc__)
-print 1,2,3,4,5,
+print 1,2,3,4,
 int  = 4.
 int2 = 5.
 int3 = 6.
