@@ -8,7 +8,7 @@ int3 = 6.
 
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.collections import LineCollection
+from matplotlib.collections import Line
 from greyson.collections import TodaysCollection
 from sklearn.linear_model import LinearRegression
 from sklearn.isotonic import IsotonicRegression
