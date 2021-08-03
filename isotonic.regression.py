@@ -9,7 +9,7 @@ int3 = 6.
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.collections import Line
-print 1,2,3,4,5,6
+print 1,2,3,4,5
 from sklearn.linear_model import LinearRegression
 from sklearn.isotonic import IsotonicRegression
 from sklearn.utils import check_random_state
