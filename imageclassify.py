@@ -1,5 +1,5 @@
 #python3 or higher
-p
+
 """Simple image classification with Inception.
 
 Run image classification with Inception trained on ImageNet 2012 Challenge data
