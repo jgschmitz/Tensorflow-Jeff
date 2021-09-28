@@ -1,4 +1,4 @@
-print 1,2,3,4,5,6,7
+print 1,2,3,4,5,6
 def recall(y_true, y_pred):
     y_true = K.ones_like(y_true) 
     true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
