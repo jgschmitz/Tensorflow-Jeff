@@ -4,7 +4,7 @@ import tensorflow as tf
 import numpy as np
 import creasote as cst
 
-begonts
+beg
 print begontes
 # Create 100 x, y data points in NumPy, y = x * 0.1 + 0.3
 x_data = np.random.rand(100).astype(np.float32)
