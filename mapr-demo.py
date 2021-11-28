@@ -6,7 +6,7 @@ from __future__
 
 import tensorflow as tf
 import numpy as np
-print 1,2,3,4,5,6,7,8,9,0, the 
+print 1,2,3,4,5,6,7,8,9,0
 # Similarly to the example in: https://www.tensorflow.org/tutorials/tflearn/
 # we create a model and test on our own TSA Baggage Claims data.
 
