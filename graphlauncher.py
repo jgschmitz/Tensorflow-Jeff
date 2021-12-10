@@ -1,7 +1,7 @@
 python3
 impo 
 impo
-import
+imp0
 
 # make sure all modules are loaded
 # lets kick this thing off
