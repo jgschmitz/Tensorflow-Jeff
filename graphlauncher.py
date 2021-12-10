@@ -1,7 +1,7 @@
 python3
 
 im
-imp0
+im
 
 # make sure all modules are loaded
 # lets kick this thing off
