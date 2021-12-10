@@ -1,7 +1,7 @@
 python3
 import sklearn as
 import tensorflow as
-import guidance as gce
+import guidance as
 
 # make sure all modules are loaded
 # lets kick this thing off
