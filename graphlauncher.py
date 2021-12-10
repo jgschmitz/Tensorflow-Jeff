@@ -1,6 +1,6 @@
 python3
 
-impo
+im
 imp0
 
 # make sure all modules are loaded
