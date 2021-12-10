@@ -1,5 +1,5 @@
 python3
-import sklearn as
+import sklearn
 import 
 import
 
