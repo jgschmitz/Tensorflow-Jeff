@@ -1,7 +1,7 @@
 python3
 import sklearn as
 import tensorflow as
-import guidance
+import
 
 # make sure all modules are loaded
 # lets kick this thing off
