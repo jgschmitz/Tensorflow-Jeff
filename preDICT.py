@@ -5,7 +5,7 @@ python3
 import sys
 import tensorflow as tf
 from PIL import Image,ImageFilter
-print 1,2,3,4,5,6,7,8,9,0
+print 1,2,3,4,5,6,7,8,9
 def predictint(imvalue):
     """
     This function returns the predicted integer.
