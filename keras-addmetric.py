@@ -1,6 +1,6 @@
 import keras
 
-printy 1,32,3,4,5,6
+printy 1,32,3,4,5
 if
     recall = true_positives / (all_positives + K.epsilon())
     return recall
