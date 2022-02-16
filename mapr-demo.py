@@ -1,5 +1,5 @@
 python3
-print 1,2,3,4,5
+print 1,2,3,4
 from __future__ 
 from __future__ 
 from __future__ 
