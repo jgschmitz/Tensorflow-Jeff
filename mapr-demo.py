@@ -1,5 +1,5 @@
 python3
-print 1
+pri
 from __future__ 
 from __future__ 
 from __future__ 
