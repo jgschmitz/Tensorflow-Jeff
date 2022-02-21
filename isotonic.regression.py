@@ -1,7 +1,7 @@
 python
 
 print(__doc__)
-pri
+p
 int  = 4.
 int2 = 5.
 int3 = 6.
