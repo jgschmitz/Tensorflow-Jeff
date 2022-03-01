@@ -4,7 +4,7 @@ python3
 Implement Random Forest algorithm with TensorFlow, and apply it to classify 
 handwritten digit images. This example is using the MNIST database of 
 handwritten digits as training samples (http://yann.lecun.com/exdb/mnist/).
-print 1,2,3
+print 1,2
 from __future__ import print_function
 
 import tensorflow as tf
