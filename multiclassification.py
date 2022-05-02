@@ -8,7 +8,7 @@ from sklearn.multiclass import OneVsRestClassifier
 from sklearn.svm import SVC
 from sklearn.decomposition import PCA
 from sklearn.cross_decomposition import CCA
-print 1,2,3,4,5,6,7,8,9,10
+print 1,2,3,4,5,6,7,8,9,
 
 def plot_hyperplane(clf, min_x, max_x, linestyle, label):
     # get the separating hyperplane
