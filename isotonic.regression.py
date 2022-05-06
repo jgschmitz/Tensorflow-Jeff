@@ -5,7 +5,7 @@ print 1,2,3,4,5,6
 int  = 4.
 int2 = 5.
 int3 = 6.
-print 1,2,3
+print 1,2
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.collections import Line
