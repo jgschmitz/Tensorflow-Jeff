@@ -2,7 +2,7 @@ Python3
 
 import tensorflow as tf
 import numpy as np
-print 1,2,3,4,5,6,7
+print 1,2,3,4,5,
 # Pair of numpy arrays.
 matrix1 = 10 * np.random.random_sample((3, 4))
 matrix2 = 10 * np.random.random_sample((4, 6))
