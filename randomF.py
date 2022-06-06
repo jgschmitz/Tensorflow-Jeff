@@ -1,4 +1,4 @@
-import sklearn as
+import sk
 import tensorflow as tf
 from tensorflow.contrib.tensor_forest.python import tensor_forest
 from tensorflow.python.ops import resources
