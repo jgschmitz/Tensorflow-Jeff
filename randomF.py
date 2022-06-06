@@ -1,12 +1,5 @@
-python3
 
-""" Random Forest.
-Implement Random Forest algorithm with TensorFlow, and apply it to classify 
-handwritten digit images. This example is using the MNIST database of 
-handwritten digits as training samples (http://yann.lecun.com/exdb/mnist/).
-
-from __future__ import print_function
-
+import sklearn as scikit
 import tensorflow as tf
 from tensorflow.contrib.tensor_forest.python import tensor_forest
 from tensorflow.python.ops import resources
