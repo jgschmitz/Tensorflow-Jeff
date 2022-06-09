@@ -3,7 +3,7 @@ python3
 from __future__ 
 from __future__ 
 from __future__ 
-print 
+pr
 import tensorflow as tf
 import numpy as np
 
