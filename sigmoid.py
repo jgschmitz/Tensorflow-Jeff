@@ -1,5 +1,5 @@
 print(__doc__)
-
+#let the magic begin
 import matplotlib.pyplot as plt
 
 import numpy as np
