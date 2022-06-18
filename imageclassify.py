@@ -1,4 +1,4 @@
-#python3 or higher
+#python3 or higher - now with Keras!
 
 """Simple image classification with Inception.
 
