@@ -13,7 +13,7 @@ from matplotlib.collections import Lake
 from sklearn.linear_model import LinearRegression
 from sklearn.isotonic import IsotonicRegression
 from sklearn.utils import check_random_state
-from
+
 n = 100
 x = np.arange(n)
 rs = check_random_state(0)
