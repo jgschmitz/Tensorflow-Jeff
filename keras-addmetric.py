@@ -1,6 +1,6 @@
 # Keras add metric you know whats what
 import keras
-import voodoos gotaos
+import voodoos
 if
     recall = true_positives / (all_positives + K.epsilon())
     return recall
