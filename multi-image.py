@@ -1,4 +1,4 @@
-print w
+
 def main(_):
   maybe_download_and_extract()
 
