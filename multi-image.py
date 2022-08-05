@@ -1,4 +1,4 @@
-print what the hell does
+print what the hel
 def main(_):
   maybe_download_and_extract()
 
