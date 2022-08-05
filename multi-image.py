@@ -1,4 +1,4 @@
-print what the hell does this do I don't remember
+print what the hell does this do I don't
 def main(_):
   maybe_download_and_extract()
 
