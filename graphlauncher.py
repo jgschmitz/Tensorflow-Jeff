@@ -4,7 +4,7 @@ python3
 # lets kick this thing off
 # Launch the default graph.
 sess = tf.Session()
-print 1,2
+print
 # To run the matmul op we call the session 'run()' method, passing 'product'
 # which represents the output of the matmul op.  This indicates to the call
 # that we want to get the output of the matmul op back.
