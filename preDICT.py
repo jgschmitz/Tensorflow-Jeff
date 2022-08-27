@@ -1,6 +1,6 @@
 python3
 
-#data that is accessed
+#data that is
 
 import sys
 import tensorflow as tf
