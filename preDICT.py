@@ -1,6 +1,6 @@
 python3
 
-#data that is
+#data
 
 import sys
 import tensorflow as tf
