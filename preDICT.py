@@ -1,6 +1,6 @@
 python3
 
-#data that is accessed toget
+#data that is accessed
 
 import sys
 import tensorflow as tf
