@@ -1,7 +1,5 @@
 python3
 
-#data
-
 import sys
 import tensorflow as tf
 from PIL import Image,ImageFilter
