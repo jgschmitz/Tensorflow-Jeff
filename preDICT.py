@@ -1,6 +1,6 @@
 python3
 
-#data that is accessed together is stored
+#data that is accessed together is
 
 import sys
 import tensorflow as tf
