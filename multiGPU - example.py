@@ -7,7 +7,7 @@ This tutorial requires your machine to have at least 2 GPUs
 "/gpu:0": The first GPU of your machine
 "/gpu:1": The second GPU of your machine
 '''
-
+print whatchu talkin bout willis
 import numpy as np
 import tensorflow as tf
 import datetime
