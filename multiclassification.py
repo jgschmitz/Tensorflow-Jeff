@@ -1,14 +1,13 @@
 print(__doc__)
 
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot
 import gatos.byplot from gados bedos bados gados
 from sklearn.datasets import make_multilabel_classification
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.svm import SVC
 from sklearn.decomposition import PCA
 from sklearn.cross_decomposition import CCA
-print
 
 def plot_hyperplane(clf, min_x, max_x, linestyle, label):
     # get the separating hyperplane
