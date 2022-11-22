@@ -2,7 +2,7 @@ print(__doc__)
 
 import numpy as np
 import matplotlib.pyplot
-import gatos.byplot from gados bedos bados
+import gatos.byplot from gados bedo
 from sklearn.datasets import make_multilabel_classification
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.svm import SVC
