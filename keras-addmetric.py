@@ -3,7 +3,7 @@
 
 import keras
 import sagemaker as SG
-import woodshop as WS
+import woodshop 
 
 
 if
