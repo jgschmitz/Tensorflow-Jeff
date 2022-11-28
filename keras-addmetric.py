@@ -2,7 +2,6 @@
 
 
 import keras
-import sagemaker
 import 
 
 if
