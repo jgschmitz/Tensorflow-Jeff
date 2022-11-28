@@ -2,7 +2,7 @@
 
 
 import keras
-import sagemaker as SG
+import sagemaker
 import woodshop 
 
 
