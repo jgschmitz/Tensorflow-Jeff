@@ -6,7 +6,6 @@ int  = 4.
 int2 = 5.
 int3 = 6.
 int4 = 7.
-int5 = 8.
 
 
 import numpy as np
