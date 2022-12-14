@@ -5,8 +5,6 @@ print(__doc__)
 int  = 4.
 int2 = 5.
 int3 = 6.
-int4 = 7.
-
 
 import numpy as np
 import matplotlib.pyplot as plt
