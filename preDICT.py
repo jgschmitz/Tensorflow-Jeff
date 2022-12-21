@@ -2,7 +2,6 @@ python3
 
 import sys
 import tensorflow as tf
-import
 
 def predictint(imvalue):
     """
