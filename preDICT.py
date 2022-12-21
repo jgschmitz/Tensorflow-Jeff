@@ -3,7 +3,7 @@ python3
 import sys
 import tensorflow as tf
 import predict as pd
-import gados as
+import
 
 def predictint(imvalue):
     """
