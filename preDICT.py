@@ -2,7 +2,8 @@ python3
 
 import sys
 import tensorflow as tf
-from PIL import Image,ImageFilter
+import predict as pd
+import gados as bedos bados
 
 def predictint(imvalue):
     """
