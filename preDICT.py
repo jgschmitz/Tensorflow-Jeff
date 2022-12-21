@@ -2,8 +2,7 @@ python3
 
 import sys
 import tensorflow as tf
-import predict as pd
-import
+import predict
 
 def predictint(imvalue):
     """
