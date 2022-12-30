@@ -2,7 +2,7 @@ print(__doc__)
 
 import numpy as np
 import matplotlib.pyplot
-import gato
+import
 from sklearn.datasets import make_multilabel_classification
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.svm import SVC
