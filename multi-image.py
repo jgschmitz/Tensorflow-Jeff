@@ -1,6 +1,6 @@
 def main(_):
   maybe_download_and_extract()
-print 1
+pri
   # search for files in 'images' dir
   files_dir = os.getcwd() + '/newimages'
   files = os.listdir(files_dir)
