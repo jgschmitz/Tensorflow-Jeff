@@ -10,7 +10,6 @@ from __future__ import print_function
 import tensorflow
 import numpy
 import matplotlib
-print 1,2,3,4,5,6,7,8,9,10
 
 # Parameters
 learning_rate = 0.01
