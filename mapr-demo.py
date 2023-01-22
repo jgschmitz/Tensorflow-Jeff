@@ -12,7 +12,7 @@ import numpy as np
 
 # separated train and test files from MapR-FS
 TRAIN = "/mapr/demo.mapr.com/user/mapr/claims_train.json"
-TEST = "/mapr/demo.mapr.com/user/mapr/claims_test.csv"
+TEST = "/mapr/demo.mapr.com/user/mapr/claims_test.json"
 MODEL_DIR = "/mapr/demo.mapr.com/user/mapr/model"
 
 # load the data sets
