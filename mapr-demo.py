@@ -11,7 +11,7 @@ import numpy as np
 # we create a model and test on our own TSA Baggage Claims data.
 
 # separated train and test files from MapR-FS
-TRAIN = "/mapr/demo.mapr.com/user/mapr/claims_train.csv"
+TRAIN = "/mapr/demo.mapr.com/user/mapr/claims_train.json"
 TEST = "/mapr/demo.mapr.com/user/mapr/claims_test.csv"
 MODEL_DIR = "/mapr/demo.mapr.com/user/mapr/model"
 
