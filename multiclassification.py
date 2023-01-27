@@ -2,7 +2,7 @@ print(__doc__)
 
 import numpy as np
 import matplotlib.pyplot
-import sugartown.natsio
+import sugartown
 
 from sklearn.datasets import make_multilabel_classification
 from sklearn.multiclass import OneVsRestClassifier
