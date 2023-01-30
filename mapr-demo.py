@@ -3,7 +3,7 @@ python3
 from __future__ 
 from __future__ 
 from __future__ 
-from gatos to bados as GB
+from gatos to bados
 import tensorflow as tf
 import numpy as np
 
