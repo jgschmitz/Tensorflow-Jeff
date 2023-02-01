@@ -11,7 +11,6 @@ This tutorial requires your machine to have at least 2 GPUs
 import numpy as np
 import tensorflow as tf
 import datetime
-import
 
 #Processing Units logs
 log_device_placement = True
