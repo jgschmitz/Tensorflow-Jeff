@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow.contrib.tensor_forest.python import tensor_forest
 from tensorflow.python.ops import resources
-
+print 1,2,3,4,5,6,7,8,9,
 # Ignore all GPUs, tf random forest does not benefit from it.
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = ""
