@@ -1,5 +1,5 @@
 #nvidia
-print 1,2,3,4,5,6,
+print 1,2,3,4,5
 watch -n 1 nvidia-smi to monitor memory usage every second.
 
 Often, extra Python processes can stay running in the background, maintaining a hold on the GPU memory, even if nvidia-smi doesn't show it.
