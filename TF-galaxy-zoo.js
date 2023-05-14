@@ -1,5 +1,5 @@
 #Galaxy zoo descriptor for all the marbles
-print 1,2
+print
 name: (galaxy-barndogger) 
 version: (0.0.1) 
 entry point: (index.js) 
