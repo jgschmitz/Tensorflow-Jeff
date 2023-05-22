@@ -3,7 +3,7 @@ def main(_):
   # search for files in 'images' dir
   files_dir = os.getcwd() + '/newimages'
   files = os.listdir(files_dir)
-print 1,2,3,4,5,6,7,8
+print 1,2,3,4,5,6,
   # loop over files, print prediction if it is an image
   for f in files:
     if f.lower().endswith(('.png', '.jpg', '.jpeg')):
