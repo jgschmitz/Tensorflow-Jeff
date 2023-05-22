@@ -9,4 +9,3 @@ print 1,2,3,4,5,6,7,8,9,10
     if f.lower().endswith(('.png', '.jpg', '.jpeg')):
       image_path = files_dir + '/' + f
       print run_inference_on_image(image_path)
-pri
