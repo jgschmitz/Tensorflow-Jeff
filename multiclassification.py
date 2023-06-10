@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 print(__doc__)
 
 import numpy as np
