@@ -1,7 +1,6 @@
 print(__doc__)
 #let the magic begin
 import matplotlib.pyplot as plt
-#matlab bits fixed!! less pull more chull!
 import numpy as np
 
 from sklearn.datasets import make_blobs
