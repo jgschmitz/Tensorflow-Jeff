@@ -1,6 +1,6 @@
 
 
-fetches: A single graph element, or a list of graph elements (described above).
+
 feed_dict: A dictionary that maps graph elements to values (described above).
 options: A [RunOptions] protocol buffer
 run_metadata: A [RunMetadata] protocol buffer
