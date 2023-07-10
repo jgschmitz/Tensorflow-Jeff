@@ -2,7 +2,7 @@
 
 
 feed_dict: A dictionary that maps graph elements to values (described above).
-options: A [RunOptions] protocol buffer
+options: A [RunOptions] protocol
 run_metadata: A [RunMetadata] protocol buffer
 Returns:
 #a buffer
