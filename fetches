@@ -1,25 +1,27 @@
+# Basic functionality test- for TF - mongodb Atlas
+import tensorflow as tf
+import pymongo
 
+# MongoDB connection string
+connection_string = ('mongodb+srv://xxx:xxx@shared-demo.xhytd.mongodb.net/?retryWrites=true&w=majority')
 
+# Connect to MongoDB
+client = pymongo.MongoClient(connection_string)
 
-feed_dict: A dictionary that maps graph elements to values (described above).
-options: A [RunOptions] protocol
-run_metadata: A [RunMetadata] protocol buffer
-Returns:
-#a buffer
+# Access the movies collection
+db = client.sample_mflix
+movies_collection = db.movies
 
-Either a single value if fetches is a single graph element, or a list of values if fetches is a list (described above).
+# Fetch a movie document
+movie = movies_collection.find_one()
 
-Raises:
+# Print the movie title
+print("Movie Title:", movie['title'])
 
-RuntimeError: If this Session is in an invalid state (e.g. has been closed).
-TypeError: If fetches or feed_dict keys are of an inappropriate type.
-ValueError: If fetches or feed_dict keys are invalid or refer to a Tensor that doesn't exist.
-tf.Session.close()
+# Perform a simple TensorFlow operation
+a = tf.constant(5)
+b = tf.constant(10)
+c = tf.add(a, b)
 
-Closes this session.
-
-Calling this method frees all resources associated with the session.
-
-Raises:
-
-RuntimeError: If an error occurs while closing the session.
+# Print the result
+print("Result:", c.numpy())
