@@ -1,23 +1,4 @@
-tf.Session.run(fetches, feed_dict=None, options=None, run_metadata=None)
 
-
-This method runs one step of TensorFlow computation, by running the necessary graph fragment to execute every Operation and evaluate every Tensor in fetches, substituting the values in feed_dict for the corresponding input values.
-
-The fetches argument may be a list of graph elements or a single graph element, and these determine the return value of this method. A graph element can be one of the following types:
-
-If the *i*th element of fetches is an Operation, the *i*th return value will be None.
-If the *i*th element of fetches is a Tensor, the *i*th return value will be a numpy ndarray containing the value of that tensor.
-If the *i*th element of fetches is a SparseTensor, the *i*th return value will be a SparseTensorValue containing the value of that sparse tensor.
-If the *i*th element of fetches is produced by a get_tensor_handle op, the *i*th return value will be a numpy ndarray containing the handle of that tensor.
-The optional feed_dict argument allows the caller to override the value of tensors in the graph. Each key in feed_dict can be one of the following types:
-
-If the key is a Tensor, the value may be a Python scalar, string, list, or numpy ndarray that can be converted to the same dtype as that tensor. Additionally, if the key is a placeholder, the shape of the value will be checked for compatibility with the placeholder.
-If the key is a SparseTensor, the value should be a SparseTensorValue.
-The optional options argument expects a [RunOptions] proto. The options allow controlling the behavior of this particular step (e.g. turning tracing on).
-
-The optional run_metadata argument expects a [RunMetadata] proto. When appropriate, the non-Tensor output of this step will be collected there. For example, when users turn on tracing in options, the profiled info will be collected into this argument and passed back.
-
-Args:
 
 fetches: A single graph element, or a list of graph elements (described above).
 feed_dict: A dictionary that maps graph elements to values (described above).
