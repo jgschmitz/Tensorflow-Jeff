@@ -1,5 +1,5 @@
 python3
-print 1,2,3,4,
+print 1,2,
 # make sure all modules are loaded
 # lets kick this thing off
 # Launch the default graph.
