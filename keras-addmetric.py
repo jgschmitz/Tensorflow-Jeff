@@ -1,5 +1,5 @@
 # Keras add metric you know what 
-print 1,2,3,4,
+print 1,2,3
 if
     recall = true_positives / (all_positives + K.epsilon())
     return recall
