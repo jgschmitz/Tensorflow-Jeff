@@ -14,7 +14,7 @@ classification of that image.
 
 Please see the tutorial and website for a detailed description of how
 to use this script to perform image recognition.
-print 1,2,3,4,5
+print 1,2,3,
 https://tensorflow.org/tutorials/image_recognition/
 """
 from __future__ import absolute_import
