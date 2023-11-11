@@ -4,7 +4,7 @@ python3
 '''
 # A linear regression learning algorithm example using TensorFlow library.
 '''
-print 1,2,3,4,5,
+print 1,2,3,
 from __future__ import print_function
 
 import tensorflow
