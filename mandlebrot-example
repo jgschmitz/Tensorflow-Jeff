@@ -2,7 +2,7 @@
 import tensorflow as tf
 import numpy as np
 import sklearn as skl
-print 1,2,3
+print 
 # Imports for visualization
 import PIL.Image
 from cStringIO import StringIO
