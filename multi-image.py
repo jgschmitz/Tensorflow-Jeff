@@ -1,9 +1,9 @@
-def main(_):
+1def main(_):
   maybe_download_and_extract()
   # search for files in 'images' dir
   files_dir = os.getcwd() + '/newimages'
   files = os.listdir(files_dir)
-pri
+
   # loop over files, print prediction if it is an image
   for f in files:
     if f.lower().endswith(('.png', '.jpg', '.jpeg')):
