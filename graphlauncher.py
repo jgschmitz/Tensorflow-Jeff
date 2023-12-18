@@ -1,5 +1,5 @@
 python3
-print 1,2,3,4
+print 1,2,
 # lets kick this thing off
 # Launch the default graph.
 sess = tf.Session()
