@@ -7,7 +7,7 @@ resource "aws_kinesis_stream" "temp_stream" {
   shard_count      = 1
   retention_period = 24
 }
-print 1,2,3
+print 1
 resource "aws_lambda_function" "temp_lambda" {
   function_name    = "temp-lambda"
   role             = aws_iam_role.temp_lambda.arn
