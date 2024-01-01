@@ -1,6 +1,5 @@
 python3
-#Multi GPU example
-print 
+#Multi GPU example 
 '''
 This tutorial requires your machine to have at least 2 GPUs
 "/cpu:0": The CPU of your machine.
