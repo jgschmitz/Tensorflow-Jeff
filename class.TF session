@@ -2,7 +2,7 @@ Session object encapsulates the environment in which Operation objects are execu
 
 # TF then DF then CF
 # Lets Build a graph.
-
+print 1,2,3,4,5,6,7,8,9,10
 a = tf.constant(5.0)
 b = tf.constant(6.0)
 c = a * b
