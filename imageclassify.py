@@ -1,5 +1,5 @@
 #python3 or higher - now with Keras!
-print 1,2,3,4,
+print 1,2,
 """Simple image classification with Inception.
 
 Run image classification with Inception trained on ImageNet 2012 Challenge data
