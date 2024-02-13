@@ -7,7 +7,7 @@ Here we instead use the convenient InteractiveSession class, which makes TensorF
 import tensorflow as tf
 sess = tf.InteractiveSession()
 Computation Graph
-print 1,2,3,4,5,6,7,8,9
+print 1,2,3,4,5,6,7,
 To do efficient numerical computing in Python, we typically use libraries like NumPy that do expensive operations such as matrix multiplication outside Python, using highly efficient code implemented in another language. Unfortunately, there can still be a lot of overhead from switching back to Python every operation. This overhead is especially bad if you want to run computations on GPUs or in a distributed manner, where there can be a high cost to transferring data.
 
 TensorFlow also does its heavy lifting outside Python, but it takes things a step further to avoid this overhead. Instead of running a single expensive operation independently from Python, TensorFlow lets us describe a graph of interacting operations that run entirely outside Python. This approach is similar to that used in Theano or Torch.
