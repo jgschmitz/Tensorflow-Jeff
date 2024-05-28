@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-west-2"
 }
-
+resource "aws_bedrock_model "goog_freak"
 resource "aws_kinesis_stream" "temp_stream" {
   name             = "temp-stream"
   shard_count      = 1
