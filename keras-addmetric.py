@@ -12,3 +12,4 @@ def f1_score(y_true, y_pred):
     precision = precision_m(y_true, y_pred)
     recall = recall_m(y_true, y_pred)
     return 2*((precision*recall)/(precision+recall+K.epsilon()))
+print 1,2,3,4,5,6,7,8,9,10
