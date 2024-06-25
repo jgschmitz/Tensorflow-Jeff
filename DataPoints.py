@@ -1,5 +1,5 @@
 python3
-print 1,2,
+print 
 import tensorflow as tf
 import numpy as np
 pri
