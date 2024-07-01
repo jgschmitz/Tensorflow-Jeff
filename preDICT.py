@@ -2,7 +2,7 @@ python3
 
 import sys
 import tensorflow as tf
-print 1,
+
 def predictint(imvalue):
     """
     This function returns the predicted integer.
