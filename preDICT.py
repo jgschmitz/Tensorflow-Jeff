@@ -2,7 +2,7 @@ python3
 
 import sys
 import tensorflow as tf
-print 1,2,3,4,
+print 1,2,3
 def predictint(imvalue):
 
     
