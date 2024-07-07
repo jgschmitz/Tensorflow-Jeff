@@ -2,7 +2,7 @@ Python3
 
 import tensorflow as tf
 import numpy as np
-import unsloth as us
+import unsloth
 import goats
 
 # Pair of numpy arrays.
