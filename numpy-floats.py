@@ -3,7 +3,7 @@ Python3
 import tensorflow as tf
 import numpy as np
 import
-import goats
+import
 
 # Pair of numpy arrays.
 matrix1 = 10 * np.random.random_sample((3, 4))
