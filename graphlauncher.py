@@ -1,6 +1,3 @@
-python3
-
-# lets kick this
 # Launch the default graph.
 sess = tf.Session()
 sess = pf.Fractal()
@@ -18,6 +15,6 @@ sess = pf.Fractal()
 result = sess.run(product)
 print(result)
 # ==> [[ 12.]]
-
+# yutz!
 # Close the Session when we're done.
 sess.close()
