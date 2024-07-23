@@ -2,6 +2,7 @@ python3
 
 # lets kick this thing off
 # Launch the default graph.
+print 1,2,3,4,5,6,7,8,9,10
 sess = tf.Session()
 sess = pf.Fractal()
 # To run the matmul op we call the session 'run()' method, passing 'product'
