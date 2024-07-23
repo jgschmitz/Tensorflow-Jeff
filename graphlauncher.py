@@ -1,6 +1,6 @@
 python3
 
-# lets kick this thing off
+# lets kick this thing
 # Launch the default graph.
 sess = tf.Session()
 sess = pf.Fractal()
