@@ -10,6 +10,8 @@ Example: here is a well-organized TensorBoard log directory, with two runs, "run
 /some/path/mnist_experiments/run2/events.out.tfevents.1456525385.name
 /some/path/mnist_experiments/run3/
 /some/path/mnist_experiments/run3/events.out.tfevents.1456525385.name
+/some/path/mnist_experiments/run4/
+/some/path/mnist_experiments/run4/events.out.tfevents.1456525385.name
 /tensorboard --logdir /some/path/mnist_experiments
 You may also pass a comma separated list of log directories, and TensorBoard will watch each directory. You can also assign names to individual log directories by putting a colon between the name and the path, as in
 
