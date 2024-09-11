@@ -1,20 +1,20 @@
-#Follow the steps:
-#install docker like so
-yum install docker -Y
+Install Docker: If Docker isn't already installed, you can install it using the following command:
 
-this is assuming DOCKER is already installed!! = )
-Docker runs only on 64-bit OS with kernel version 3.10 or higher. So, the first step must be to install the latest kernel available from wheezy backports. Follow the backport instructions
-Then reboot the machine selecting the latest kernel version
-Follow the docker installation steps
+sudo yum install docker -y
 
-Now, we are all set to install TensorFlow. Simply run
+Check OS Compatibility: Docker runs on 64-bit OS with kernel version 3.10 or higher. Before proceeding, ensure you are using a compatible system. If needed, install the latest kernel version from Wheezy backports (or your distribution's equivalent). Follow your backport instructions, then reboot your machine and select the latest kernel version.
+
+Install Docker (if not already installed): If Docker is not yet installed, follow the official Docker installation steps for your OS version here.
+
+Install TensorFlow with Docker: Now that Docker is ready, you can install TensorFlow by pulling the official TensorFlow Docker image:
+
 sudo docker run -it b.gcr.io/tensorflow/tensorflow
-That will pull all the required dependencies and set the docker image (which was about 300MiB to download)
 
-Wouldn’t it be convenient if we could add some data persistance, to save data so that the host could use it? There’s an option for that as well
+This will automatically download the necessary dependencies and set up the Docker image (~300 MiB).
+
+Adding Data Persistence: To save data between sessions, mount a host directory to a directory inside the Docker container:
 
 sudo docker run -it -v /host/dir:/docker/dir b.gcr.io/tensorflow/tensorflow
 
-Now the /host/dir is mounted to the /docker/dir when the image is run
-And that’s it, no need of a virtualbox, which wastes more time and space than to run a docker image
-Check an example program from the tutorial, like plotting mandelbrot set
+This command mounts /host/dir from your local machine to /docker/dir inside the Docker container, enabling data persistence.
+Running Programs in the Docker Environment: You can now run TensorFlow programs inside the container. For example, try running a tutorial like plotting the Mandelbrot set.
