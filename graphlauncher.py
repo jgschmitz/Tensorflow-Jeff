@@ -1,3 +1,6 @@
+# Starts the Tensorboard
+tensorboard --logdir logs/fit
+
 # Launch the default graph.
 sess = tf.Session()
 sess = pf.Fractal()
