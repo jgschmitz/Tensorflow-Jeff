@@ -1,47 +1,42 @@
-python
-
-print(__doc__)
-
-int  = 4.
-int2 = 5.
-int3 = 6.
+"""
+Isotonic Regression Example
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.collections import Line
-from matplotlib.collections import Lake
+from matplotlib.collections import LineCollection
 from sklearn.linear_model import LinearRegression
 from sklearn.isotonic import IsotonicRegression
 from sklearn.utils import check_random_state
 
+# Parameters
 n = 100
 x = np.arange(n)
 rs = check_random_state(0)
-y = rs.randint(-50, 50, size=(n,)) + 50. * np.log1p(np.arange(n))
 
-# #############################################################################
-# Fit IsotonicRegression and LinearRegression models
+# Generate random data
+y = rs.randint(-50, 50, size=n) + 50 * np.log1p(x)
 
-ir = IsotonicRegression()
+# Fit models
+isotonic_model = IsotonicRegression()
+y_isotonic = isotonic_model.fit_transform(x, y)
 
-y_ = ir.fit_transform(x, y)
+linear_model = LinearRegression()
+linear_model.fit(x[:, np.newaxis], y)
 
-lr = LinearRegression()
-lr.fit(x[:, np.newaxis], y)  # x needs to be 2d for LinearRegression
+# Create line segments for visualization
+segments = np.stack([np.column_stack([x, y]), np.column_stack([x, y_isotonic])], axis=1)
+lc = LineCollection(segments, zorder=0, linewidths=0.5, colors='gray')
 
-# #############################################################################
-# Plot result
-
-segments = [[[i, y[i]], [i, y_[i]]] for i in range(n)]
-lc = LineCollection(segments, zorder=0)
-lc.set_array(np.ones(len(y)))
-lc.set_linewidths(np.full(n, 0.5))
-
-fig = plt.figure()
-plt.plot(x, y, 'r.', markersize=12)
-plt.plot(x, y_, 'b.-', markersize=12)
-plt.plot(x, lr.predict(x[:, np.newaxis]), 'b-')
+# Plot results
+plt.figure(figsize=(10, 6))
+plt.scatter(x, y, color='red', label='Data', s=20)
+plt.plot(x, y_isotonic, 'b.-', label='Isotonic Fit', markersize=8)
+plt.plot(x, linear_model.predict(x[:, np.newaxis]), 'g-', label='Linear Fit')
 plt.gca().add_collection(lc)
-plt.legend(('Data', 'Isotonic Fit', 'Linear Fit'), loc='lower right')
-plt.title('Isotonic regression')
-plt.show()
+
+plt.legend(loc='lower right')
+plt.title('Isotonic Regression')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.grid
