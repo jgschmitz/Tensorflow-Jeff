@@ -1,11 +1,11 @@
 #nvidia
 
-watch -n 1 nvidia-smi to monitor memory usage every second.
+#watch -n 1 nvidia-smi to monitor memory usage every second.
 
-Often, extra Python processes can stay running in the background, maintaining a hold on the GPU memory, even if nvidia-smi doesn't show it.
-Probably due to running Keras in a notebook, and then running the cell that starts the processes again, since this will fork the current process, which has a hold on GPU memory. In the future, restart the kernel first, and stop all process before exiting (even though they are daemons and should stop automatically when the parent process ends).
-Kill old Python process with ps -ef | grep `whoami` | grep "[p]ython" | awk '{print $2}' | xargs kill -9.
-Quick GPU test
+#Often, extra Python processes can stay running in the background, maintaining a hold on the GPU memory, even if nvidia-smi doesn't show it.
+#Probably due to running Keras in a notebook, and then running the cell that starts the processes again, since this will fork the current process, which has a hold on GPU memory. In the future, restart the kernel first, and stop all process before exiting (even though they are daemons and should stop automatically when the parent process ends).
+#Kill old Python process with ps -ef | grep `whoami` | grep "[p]ython" | awk '{print $2}' | xargs kill -9.
+#Quick GPU test
 
 python3
 
