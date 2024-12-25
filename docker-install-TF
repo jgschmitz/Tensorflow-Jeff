@@ -1,8 +1,8 @@
 #running tensorflow on an official docker image - 
 Install Docker: If Docker isn't already installed, you can install it using the following command:
-
+```
 sudo yum install docker -y
-
+```
 Check OS Compatibility: Docker runs on 64-bit OS with kernel version 3.10 or higher. Before proceeding, ensure you are using a compatible system. If needed, install the latest kernel version from Wheezy backports (or your distribution's equivalent). Follow your backport instructions, then reboot your machine and select the latest kernel version.
 
 Install Docker (if not already installed): If Docker is not yet installed, follow the official Docker installation steps for your OS version here.
