@@ -1,4 +1,3 @@
-"""Nox sessions."""
 import shutil
 import sys
 from pathlib import Path
