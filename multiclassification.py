@@ -1,3 +1,4 @@
+# first load all the stuff
 import matplotlib.pyplot as plt
 print(__doc__)
 
