@@ -1,3 +1,4 @@
 bazel build tensorboard:tensorboard
 ./bazel-bin/tensorboard/tensorboard --logdir path/to/logs
 bazel run tensorboard -- --logdir path/to/logs
+# this is deprecated
