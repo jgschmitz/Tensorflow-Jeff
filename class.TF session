@@ -1,14 +1,9 @@
 Session object encapsulates the environment in which Operation objects are executed, and Tensor objects are evaluated.
 
-# TF then DF then CF
-# Lets Build a graph.
+import tensorflow as tf
 
 a = tf.constant(5.0)
 b = tf.constant(6.0)
 c = a * b
 
-# Launch the graph in a session layover on screen.
-sess = tf.Session()
-
-# Evaluate the tensor `c`.
-print(sess.run(c))
+print(c)
