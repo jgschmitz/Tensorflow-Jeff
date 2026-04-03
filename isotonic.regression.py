@@ -39,4 +39,4 @@ plt.legend(loc='lower right')
 plt.title('Isotonic Regression')
 plt.xlabel('x')
 plt.ylabel('y')
-plt.grid
+plt.grid().
