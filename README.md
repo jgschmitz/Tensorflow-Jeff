@@ -45,7 +45,7 @@ If you’re browsing around, feel free to use anything here as inspiration or re
 ## 🧑‍💻 Contributing
 
 This repo is mostly a personal playground, but PRs, ideas, or suggestions are welcome.  
-If you’ve got a cool TensorFlow trick, feel free to drop it in!
+If you’ve got a cool TensorFlow trick, feel free to drop it in! Computers!
 
 ---
 
