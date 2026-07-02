@@ -1,4 +1,4 @@
-# updated cut and paste 
+# updated more modern edition - 
 print(__doc__)
 #let the magic begin
 import matplotlib.pyplot as plt
