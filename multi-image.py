@@ -1,11 +1,15 @@
-1def main(_):
-  maybe_download_and_extract()
-  # search for files in 'images' dir
-  files_dir = os.getcwd() + '/newimages'
-  files = os.listdir(files_dir)
+from pathlib import Path
 
-  # loop over files, print prediction if it is an image
-  for f in files:
-    if f.lower().endswith(('.png', '.jpg', '.jpeg')):
-      image_path = files_dir + '/' + f
-      print run_inference_on_image(image_path)
+
+def main():
+    maybe_download_and_extract()
+
+    files_dir = Path.cwd() / "newimages"
+
+    for image_path in files_dir.iterdir():
+        if image_path.suffix.lower() in {".png", ".jpg", ".jpeg"}:
+            print(run_inference_on_image(str(image_path)))
+
+
+if __name__ == "__main__":
+    main()
