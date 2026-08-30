@@ -3,7 +3,7 @@ from PIL import Image as PILImage
 from IPython.display import display
 
 
-def display_fractal(ns, iters):
+def display_fractal(ns, interior):
     phase = 2 * np.pi * ns / 20.0
 
     img = np.stack([
@@ -12,9 +12,10 @@ def display_fractal(ns, iters):
         155 - 80 * np.cos(phase)
     ], axis=-1)
 
-    img[ns == iters] = 0
-    img = np.uint8(np.clip(img, 0, 255))
+    # Mandelbrot set itself
+    img[interior] = 0
 
+    img = np.uint8(np.clip(img, 0, 255))
     display(PILImage.fromarray(img))
 
 
@@ -28,12 +29,17 @@ active = np.ones(c.shape, dtype=bool)
 
 iters = 200
 
-for _ in range(iters):
+for i in range(iters):
     z[active] = z[active] ** 2 + c[active]
 
-    escaped = np.abs(z) > 2.0
-    active &= ~escaped
+    escaped = active & (np.abs(z) > 2.0)
 
-    ns[active] += 1
+    # Record exactly when each point escaped
+    ns[escaped] = i + 1
 
-display_fractal(ns, iters)
+    active[escaped] = False
+
+# Anything still active after all iterations is in/near the set
+ns[active] = iters
+
+display_fractal(ns, active)
