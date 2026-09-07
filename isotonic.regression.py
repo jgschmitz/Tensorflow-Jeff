@@ -1,39 +1,26 @@
-#new school version 
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.collections import LineCollection
 from sklearn.linear_model import LinearRegression
 from sklearn.isotonic import IsotonicRegression
-from sklearn.utils import check_random_state
 
-# Parameters
-n = 100
-x = np.arange(n)
-rs = check_random_state(0)
+# Data generation
+x = np.arange(100)
+y = np.random.default_rng(0).integers(-50, 50, 100) + 50 * np.log1p(x)
 
-# Generate random data
-y = rs.randint(-50, 50, size=n) + 50 * np.log1p(x)
+# Model fitting
+y_iso = IsotonicRegression().fit_transform(x, y)
+y_lin = LinearRegression().fit(x[:, None], y).predict(x[:, None])
 
-# Fit models
-isotonic_model = IsotonicRegression()
-y_isotonic = isotonic_model.fit_transform(x, y)
-
-linear_model = LinearRegression()
-linear_model.fit(x[:, np.newaxis], y)
-
-# Create line segments for visualization
-segments = np.stack([np.column_stack([x, y]), np.column_stack([x, y_isotonic])], axis=1)
-lc = LineCollection(segments, zorder=0, linewidths=0.5, colors='gray')
-
-# Plot results
+# Plotting
 plt.figure(figsize=(10, 6))
-plt.scatter(x, y, color='red', label='Data', s=20)
-plt.plot(x, y_isotonic, 'b.-', label='Isotonic Fit', markersize=8)
-plt.plot(x, linear_model.predict(x[:, np.newaxis]), 'g-', label='Linear Fit')
-plt.gca().add_collection(lc)
+plt.vlines(x, y, y_iso, colors='gray', linewidths=0.5, zorder=0)
+plt.scatter(x, y, c='r', s=20, label='Data')
+plt.plot(x, y_iso, 'b.-', label='Isotonic Fit', ms=8)
+plt.plot(x, y_lin, 'g-', label='Linear Fit')
 
-plt.legend(loc='lower right')
 plt.title('Isotonic Regression')
 plt.xlabel('x')
 plt.ylabel('y')
-plt.grid().
+plt.grid(True)
+plt.legend(loc='lower right')
+plt.show()
