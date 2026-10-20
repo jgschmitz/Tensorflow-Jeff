@@ -1,4 +1,4 @@
-# Start the Tensorboard
+# Start the Tensorboard with this command 
 tensorboard --logdir logs/fit
 
 # Launch the default graph.
