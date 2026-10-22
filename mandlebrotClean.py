@@ -1,3 +1,4 @@
+# Version 0.5
 import numpy as np
 from PIL import Image as PILImage
 from IPython.display import display
